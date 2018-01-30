@@ -1,2 +1,9 @@
 <h1>My Tasks</h1>
-<p>Insert new tasks...</p>
+<button type="button" class="btn btn-default"><%= link_to "Create new task", new_item_path%></button> 
+
+<hr>
+
+<% @items.each do |item| %>
+  <h3><%= item.title %></h3>
+  <p><%= item.description %></p>
+<% end %>
