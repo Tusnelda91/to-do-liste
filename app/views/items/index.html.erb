@@ -4,6 +4,6 @@
 <hr>
 
 <% @items.each do |item| %>
-  <h3><%= item.title %></h3>
+  <h3><%= link_to item.title, item %></h3>
   <p><%= item.description %></p>
 <% end %>
