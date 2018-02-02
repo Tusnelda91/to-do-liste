@@ -51,7 +51,7 @@ group :development do
   gem 'spring'
 end
 
-goup :production do
+group :production do
   gem 'postgres'
   gem 'rails_12factor'
 end
