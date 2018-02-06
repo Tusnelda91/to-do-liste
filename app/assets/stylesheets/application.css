@@ -13,3 +13,12 @@
  *= require_tree .
  *= require_self
  */
+
+.container {
+    font-family: cursive;
+    background-color: #00FFFF;
+}
+    
+ .container h1, h2, h3 {   
+    color: #32CD32;
+};
